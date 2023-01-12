@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+
+    <link rel="stylesheet" href="login-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+        <h1 style="margin-top: 100px; color: white; font-family: 'Oswald'; font-size: 60px; font-weight: 100;">INCUBIT</h1>
+    </center>
+
+    <center>
+        <div class="window">
+            <h1 style="font-family: 'Oswald'; font-size: 40px; font-weight: 100; color:  rgb(64, 63, 63);">LOGIN</h1>
+        
+
+            <form action="auth" method="POST">
+                <div class="form-row row py-3 d-flex justify-content-center">
+                    <div class="form-group">
+                            <label class="sr-only" for="username">Usuario</label>
+                            <input type="text" class="form-control form-control-sm mr-1" id="user" name="user" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="password">Contraseña</label>
+                        <input type="password" class="form-control form-control-sm mr-1" id="pass" name="pass" placeholder="Contraseña">
+                    </div>
+                </div>
+                <div class="form-row d-flex justify-content-center">
+                    <button type="submit" value="Login" class="m-1 btn btn-primary">Sign in</button>
+                </div>
+            </form>
+        </div>
+
+    </center>
+
+    
+    
+    
+</body>
+</html>
